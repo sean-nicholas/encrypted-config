@@ -1,14 +1,14 @@
 {
-  "name": "encrypted-config",
+  "name": "@sean-nicholas/encrypted-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Loads a config file from disk and decrypts encrypted values",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "sean-nicholas",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^11.13.1",
@@ -18,5 +18,9 @@
   },
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sean-nicholas/encrypted-config.git"
   }
 }
