@@ -23,5 +23,6 @@ export function loadConfig({
     return _.merge(config, fileConfig)
   } catch (error) {
     console.log('No additional config loaded. Reason:', error.message)
+    return config
   }
 }
