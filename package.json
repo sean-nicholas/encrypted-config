@@ -17,6 +17,7 @@
     "typescript": "^3.4.2"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.130",
     "lodash": "^4.17.11"
   },
   "repository": {
