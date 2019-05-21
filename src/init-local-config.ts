@@ -10,8 +10,8 @@ export function initLocalConfig<T>({
   filePath = join(process.cwd(), 'config.json'),
 }: {
   config: T
-  modifier: Modifier<T>
-  filePath: string
+  modifier?: Modifier<T>
+  filePath?: string
 }) {
   const clonedConfig = _.cloneDeep(config)
   const modifiedConfig = modifier(clonedConfig)
