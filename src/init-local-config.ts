@@ -17,7 +17,7 @@ export function initLocalConfig<T>({
   const modifiedConfig = modifier(clonedConfig)
 
   try {
-    const content = JSON.stringify(modifiedConfig)
+    const content = JSON.stringify(modifiedConfig, null, 2)
     writeFileSync(filePath, content)
   } catch (error) {
     console.log('Could not write local configuration. Reason:', error.message)
