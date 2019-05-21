@@ -1,11 +1,12 @@
 {
   "name": "@sean-nicholas/encrypted-config",
-  "version": "1.0.3",
+  "version": "1.1.2",
   "description": "Loads a config file from disk and decrypts encrypted values",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "pub": "npm run build && npm publish"
   },
   "keywords": [],
   "author": "sean-nicholas",
